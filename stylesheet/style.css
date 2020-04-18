@@ -1,0 +1,101 @@
+
+body{
+	font-family: arial, sans-serif;
+	margin: 0px;
+	font-size: 1rem;
+	width: 100%;
+}
+/*-------------------------------head.................................*/
+
+.head{
+background-color: red;
+height:111.562px;
+width:100%;
+text-align: center;
+position: sticky;
+top: 0px;
+}
+/*-------------------------------body.................................*/
+
+.body-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	text-align: center;
+}
+.body-container .body-slide-show{
+	background-color: #eee;
+	flex-basis: 353px;
+	width: 1350px;
+}
+.body-container .body-category{
+	background-color: #ddd;
+	flex-basis: 377.875px; /*padding-top: 18.750px*/
+	width: 1200px;
+}
+.body-container .body-flash-sale{
+	background-color: #eee;
+	flex-basis: 316px;
+	width: 1200px;
+}
+.body-container .body-shopee-mall{
+	background-color: #ddd;
+	flex-basis: 506px;
+	width: 1200px;
+}
+.body-container .body-shampo-now{
+	background-color: #eee;
+	flex-basis: 140px;
+	width: 1200px;
+}
+.body-container .body-search-trends{
+	background-color: #ddd;
+	flex-basis: 151px;
+	width: 1200px;
+}
+.body-container .body-top-search{
+	background-color: #eee;
+	flex-basis: 382.250px; /*padding-botom : 65,625px*/
+	width: 1200px;
+}
+.body-container .body-suggestion-today{
+	background-color: #ddd;
+	flex-basis: 2355.690px;
+	width: 1200px;
+}
+
+/*-------------------------------footer.................................*/
+
+footer .footer-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	text-align: center;
+}
+footer .footer-container .ft-header{
+	background-color: #eee;
+	flex-basis: 994.500px;
+	width: 1125px;
+}
+footer .footer-container .ft-category{
+	background-color: #ddd;
+	flex-basis: 1559.750px;
+	width: 1125px;
+}
+footer .footer-container .ft-footer{
+	background-color: #eee;
+	flex-basis: 907.656px;
+	width: 1125px;
+}
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  body{
+  	width: 100%;
+  }
+}
