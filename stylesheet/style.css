@@ -4,6 +4,10 @@ body{
 	margin: 0px;
 	font-size: 1rem;
 	width: 100%;
+	background-color: #eee;
+}
+html{
+	background-color: #eee;
 }
 /*-------------------------------head.................................*/
 
@@ -18,21 +22,41 @@ top: 0px;
 /*-------------------------------body.................................*/
 
 .body-container{
+
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-color: white;
+	background-color: #f5f5f5;
 	text-align: center;
 }
-.body-container .body-slide-show{
-	background-color: #eee;
-	flex-basis: 353px;
+.body-container .body-head{
+	display: flex;
+	flex-direction: column;
+	justify-content: top;
+	align-items: center;
+	background-color: #fff;
+	flex-basis: 352.969px;
 	width: 1350px;
+	padding-top: 30px;
 }
+		.body-container .body-head .body-head-slide{
+			
+			background-color: #fff;
+			flex-basis: auto;
+			width: 1200px;
+
+		}
+		.body-container .body-head .body-head-RNe{
+			background-color: #fff;
+			flex-basis: 100px;
+			width: 1200px;
+
+		}
 .body-container .body-category{
-	background-color: #ddd;
-	flex-basis: 377.875px; /*padding-top: 18.750px*/
+
+	background-color: #f5f5f5;
+	height: 395px;
 	width: 1200px;
 }
 .body-container .body-flash-sale{
@@ -92,10 +116,3 @@ footer .footer-container .ft-footer{
 	width: 1125px;
 }
 
-
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  body{
-  	width: 100%;
-  }
-}
